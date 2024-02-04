@@ -1,0 +1,175 @@
+html {
+    margin: 0;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.item1 {
+    height: 100%;
+    width: 70%;
+    padding: 4rem;
+}
+
+.item1 img {
+    height: 90%;
+    width: 95%;
+    object-fit: contain;
+}
+
+.item2 {
+    height: 100%;
+    width: 30%;
+    overflow: scroll;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+h1 {
+    color: rgb(88, 88, 88);
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.item-line {
+    display: flex;
+    height: 1px;
+    border-bottom: 1px solid rgb(207, 203, 214);
+}
+
+.content-actions {
+    display:flex;
+    justify-content: space-between;
+    color: rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.content-toggle-container {
+    display: block;
+    text-align: center;
+
+}
+
+.content-toggle {
+    padding: 1rem 2rem;
+    margin: auto;
+
+}
+
+.content-toggle.active{
+    border-bottom: 1px solid black;
+    color: rgb(51, 51, 51);
+    
+}
+
+.content-connections {
+    margin-top: 1.5rem;
+    width: 100%;
+
+}
+
+.update-content {
+    color: rgb(153, 153, 153);
+    font-size: 1.25rem;
+    padding-bottom: 3rem;
+    line-height: 1.75rem;
+}
+
+.content-connect-button {
+    color: rgb(88, 88, 88);
+    border: 2px solid rgb(222, 222, 222);
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 9rem 2rem;
+    font-size: 1rem;
+    padding: 0rem;
+    border-radius: .4rem;
+}
+
+a {
+    display: block;
+    color: inherit;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.connections-dates {
+    color: rgb(153, 153, 153);
+    font-size: 1.25rem;
+
+}
+
+.connections-grey {
+    border: 2px solid rgb(207, 203, 214);
+    color: rgb(75, 61, 103);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connections-green {
+    border: 2px solid rgb(193, 233, 191);
+    color: rgb(23, 172, 16);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
+
+.author {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.20rem;
+}
+
+.block-number {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.20rem;
+}
+
+.content-links {
+    font-size: 1.25rem;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    line-height: 1.75rem;
+}
